@@ -1,0 +1,319 @@
+
+/*  il grande capo  */
+
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+a { color: #FFFFFF; text-decoration: none; }
+
+h3{
+    font-size: 30pt;
+    font-weight: 100;
+}
+h5{
+    font-size: 15pt;
+    font-weight: 100;
+}
+
+/* top del sito */
+
+.header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color:#565567;
+}
+.logo{
+    margin-left: 5%;
+    width: 50%;
+    height: 33px;
+}
+#logo{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+.menu{
+    margin-right: 5%;
+    height: 33px;
+    width: 90%;
+}
+.list{
+    align-content: center;
+    float: right;
+}
+dd{
+    font-size: 10pt;
+    display: inline-block;
+}
+dd:hover{
+    font-weight: 600;
+    color: red;
+}
+
+/*  centro / prima pagina  */
+
+#main{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    margin: 0 33%;
+    max-width: 800px;
+}
+
+.rules{
+    margin-top: 220px;
+    font-family: Helvetica, sans-serif;
+}
+.rules2{
+    margin-top: -90px;
+    font-family: Helvetica, sans-serif;
+}
+
+/* colonna centrale */
+
+.funzione{
+    display: flex;
+    justify-content: center;
+}
+
+.facce{
+    margin-top: -420px;
+    width: 600px;
+    height: 600px;
+}
+
+/* Pezzi delle facce */
+
+#volto{
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    z-index: auto;
+    position: absolute;
+}
+#naso{
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    z-index: 6;
+}
+#capelli{
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    z-index: 7;
+}
+#occhi{
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    z-index: 4;  
+}
+#labbra{
+    width: 600px;
+    height: 450px;
+    background-repeat: no-repeat;
+    z-index: 5; 
+}
+#corpo{
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    z-index: auto;
+}
+#barba{
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat; 
+    z-index: 3; 
+}
+#altro{
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat; 
+    z-index: 8;
+}
+#sfondo{
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+/* Input */
+
+#realinp {
+    width: 500px;
+    position: relative;
+    top: 620px;
+    -webkit-appearance: none;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-style: line;
+    border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(0, 0, 0);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(0, 0, 0);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(0, 0, 0);
+    border-top-style: none;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: auto;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25pt;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-weight: normal;
+    height: 50px;
+    letter-spacing: normal;
+    line-height: 45px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+    text-align: center;
+    text-indent: 0px;
+    text-shadow: none;
+    text-transform: none;
+    vertical-align: middle;
+    word-spacing: 0px;
+    writing-mode: horizontal-tb;
+}
+
+#inp{
+    visibility: hidden;
+    }
+
+#linea{
+    position: relative;
+    top: 655px;
+    left: -55px;
+    opacity: 0.5;
+}
+
+.vuoto{
+    height: 100px;
+}
+#vuotoHome{
+    height: 60px;
+}
+
+#centro{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    margin: 0 30%;
+    max-width: 800px;
+}
+
+#centroCS{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    margin: 0 20%;
+    max-width: 1180px;
+}
+
+#centroPR{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    margin: 0 30%;
+}
+
+.titolo{ 
+    font-weight: bold;
+    color: #565567;
+}
+
+.portrait{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+
+.testo{
+    text-align: justify;
+    font-size: 13pt;
+}
+
+#testoCS{
+    text-align: center;
+    font-size: 13pt;
+}   
+
+.SS{
+    padding: 20px;
+    color:#565567;
+}
+
+.lgbt {padding-top: 3%;}
+
+
+#partner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.colonnaP{
+    padding: 10px;
+    width: 186px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width: 869px){
+    
+    .portrait{
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+        padding: 20px;
+    }
+
+    #partner{
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 0 6%;
+    }
+
+}
+
+@media only screen and (max-width: 1440px){
+    
+    #vuotoHome{
+        height: 25px;
+    }
+
+    .vuoto{
+        height: 50px;
+    }
+}
+
