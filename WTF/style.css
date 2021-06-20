@@ -1,5 +1,5 @@
 
-/*  il grande capo  */
+@charset "utf-8";
 
 body{
     margin: 0;
@@ -16,8 +16,6 @@ h5{
     font-size: 15pt;
     font-weight: 100;
 }
-
-/* top del sito */
 
 .header{
     display: flex;
@@ -53,8 +51,6 @@ dd:hover{
     color: red;
 }
 
-/*  centro / prima pagina  */
-
 #main{
     display: flex;
     flex-direction: column;
@@ -71,8 +67,6 @@ dd:hover{
     margin-top: -90px;
     font-family: Helvetica, sans-serif;
 }
-
-/* colonna centrale */
 
 .funzione{
     display: flex;
